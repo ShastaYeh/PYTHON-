@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T06:48:22.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="i4kALeozK1bbUZctHnpY" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T07:40:14.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Da8uk0p3vpxFVrCwWv9v" version="20.2.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="782" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
         </mxCell>
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" target="jdenM_Pm6bT-UXlrKvNA-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="-120" as="sourcePoint" />
+            <mxPoint x="80" y="260" as="sourcePoint" />
             <mxPoint x="270" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -40,7 +40,7 @@
             <mxPoint x="559.5" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jdenM_Pm6bT-UXlrKvNA-15" value="Send manifest url&lt;br&gt;via RPC" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-15" value="Send manifest URL&lt;br&gt;via RPC" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="-720" as="sourcePoint" />
             <mxPoint x="240" y="-720" as="targetPoint" />
@@ -77,7 +77,7 @@
             <mxPoint x="719.5" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jdenM_Pm6bT-UXlrKvNA-22" value="Get manifest file via url" style="endArrow=classic;html=1;rounded=0;fontColor=#0000FF;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-22" value="Get manifest file via URL" style="endArrow=classic;html=1;rounded=0;fontColor=#0000FF;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="-540" as="sourcePoint" />
             <mxPoint x="720" y="-540" as="targetPoint" />
@@ -110,7 +110,7 @@
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-29" value="perform firmware upgrade" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="160" y="-20" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jdenM_Pm6bT-UXlrKvNA-31" value="Software monitors&lt;br&gt;this value?" style="endArrow=classic;html=1;rounded=0;fontColor=#0000FF;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-31" value="Software monitors&lt;br&gt;this value?&lt;br&gt;If upgrade is fail?" style="endArrow=classic;html=1;rounded=0;fontColor=#0000FF;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="140" as="sourcePoint" />
             <mxPoint x="400" y="140" as="targetPoint" />
@@ -132,6 +132,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="140" as="sourcePoint" />
             <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-38" value="Notice PUMA&lt;br&gt;firmware upgrade&lt;br&gt;is done" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeWidth=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="140" as="sourcePoint" />
+            <mxPoint x="80" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
