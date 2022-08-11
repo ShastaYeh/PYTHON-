@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T04:05:10.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="knXibQqgTUkISxavoNZh" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T05:16:48.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="FpBAauvFo4RB4TbGkk2h" version="20.2.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="782" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -19,24 +19,24 @@
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-9" value="RAPIL&lt;br&gt;&amp;nbsp;data model platform &lt;br&gt;handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="-840" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jdenM_Pm6bT-UXlrKvNA-10" value="RAPIL app:&lt;br&gt;software updater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-10" value="RAPIL app&lt;br&gt;software updater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="-840" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="jdenM_Pm6bT-UXlrKvNA-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="-120" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="sourcePoint" />
             <mxPoint x="190" y="-650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="-68" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="sourcePoint" />
             <mxPoint x="399.5" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="-120" as="sourcePoint" />
+            <mxPoint x="560" y="250" as="sourcePoint" />
             <mxPoint x="559.5" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -73,7 +73,7 @@
         </mxCell>
         <mxCell id="jdenM_Pm6bT-UXlrKvNA-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="-120" as="sourcePoint" />
+            <mxPoint x="720" y="260" as="sourcePoint" />
             <mxPoint x="719.5" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -81,6 +81,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="-400" as="sourcePoint" />
             <mxPoint x="720" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-24" value="store manifest in directory indicated by&lt;br&gt;X_ARRIS_COM_General.&lt;br&gt;Storage.&lt;br&gt;TemporaryPath&lt;br&gt;or&lt;br&gt;X_ARRIS_COM_General.&lt;br&gt;Storage.&lt;br&gt;PersistentPath?" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-380" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-25" value="If newer firmware exists,&lt;br&gt;download the fw image&lt;br&gt;to&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;X_ARRIS_COM_General.&lt;br&gt;Storage.&lt;br&gt;TemporaryPath&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-40" as="sourcePoint" />
+            <mxPoint x="720" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="-40" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
