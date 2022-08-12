@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T08:08:29.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HkRjIBAOnKJBc4Tqpsb1" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-12T08:11:15.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gPO54uQdMh-IoeoSpeOq" version="20.2.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="782" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
             <mxPoint x="640" y="-760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jdenM_Pm6bT-UXlrKvNA-15" value="Send manifest URL&lt;br&gt;via RPC" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" edge="1">
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-15" value="RPC send manifest URL" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="-720" as="sourcePoint" />
             <mxPoint x="240" y="-720" as="targetPoint" />
@@ -110,7 +110,7 @@
             <mxPoint x="400" y="-130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jdenM_Pm6bT-UXlrKvNA-38" value="Notice PUMA&lt;br&gt;firmware upgrade&lt;br&gt;is done" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeWidth=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" edge="1">
+        <mxCell id="jdenM_Pm6bT-UXlrKvNA-38" value="RPC notice upgrade&lt;br&gt;is complete" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeWidth=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="-80" as="sourcePoint" />
             <mxPoint x="80" y="-80" as="targetPoint" />
@@ -156,7 +156,7 @@
         <mxCell id="U-yVeBKho5rMkf0PNRiw-9" value="Perform reboot" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="190" y="60" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U-yVeBKho5rMkf0PNRiw-10" value="&lt;font&gt;Tell PUMA to reboot&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeWidth=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" edge="1">
+        <mxCell id="U-yVeBKho5rMkf0PNRiw-10" value="&lt;font&gt;RPC PUMA to reboot&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeWidth=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="40" as="sourcePoint" />
             <mxPoint x="80" y="40" as="targetPoint" />
